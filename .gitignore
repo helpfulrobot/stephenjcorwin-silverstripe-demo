@@ -1,0 +1,20 @@
+# ignore composer installed modules
+/framework
+/cms
+/reports
+/siteconfig
+/silverstripe-link-field
+/sortablegridfield
+/gridfieldextensions
+
+# ignore error
+/ss_error.log
+
+# ignore cache folder
+/silverstripe-cache/
+
+# ignore build tools
+/tools/phing-metadata
+
+# ignore composer vendor folder
+/vendor/

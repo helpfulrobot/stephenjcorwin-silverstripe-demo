@@ -1,0 +1,7 @@
+<div ng-bind-html="embedHtml(primaryContent)" ng-show="!toggle">
+</div>
+
+<div ng-bind-html="embedHtml(secondaryContent)" ng-show="toggle">
+</div>
+
+<button ng-click="toggle = !toggle">Swap <i ng-class="icon"><i></button>

@@ -1,0 +1,6 @@
+---
+Name: module-example_angular-directives
+---
+StringField:
+  extensions:
+    - String_Extension

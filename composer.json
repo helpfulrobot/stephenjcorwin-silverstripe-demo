@@ -1,0 +1,24 @@
+{
+	"name": "stephenjcorwin/silverstripe-demo",
+	"description": "SilverStripe Examples",
+	"homepage": "https://github.com/stephenjcorwin/silverstripe-demo/",
+	"keywords": [
+        "silverstripe",
+        "demo"
+    ],
+	"support": {
+        "issues": "https://github.com/stephenjcorwin/silverstripe-demo/issues"
+    },
+	"require": {
+		"php": ">=5.3.3",
+		"silverstripe/cms": "3.3.1",
+		"silverstripe/framework": "3.3.1",
+		"silverstripe/reports": "3.3.1",
+		"silverstripe/siteconfig": "3.3.1",
+		"lrc/silverstripe-link-field": "^0.1.0",
+		"undefinedoffset/sortablegridfield": "^0.6.1",
+		"silverstripe-australia/gridfieldextensions": "1.3.0"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}

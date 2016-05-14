@@ -1,0 +1,16 @@
+---
+Name: module-example_generated-css
+---
+SiteConfig:
+  extensions:
+    - Color_SiteConfigExtension
+    - Icon_SiteConfigExtension
+    - StyleSheet_SiteConfigExtension
+ContentController:
+  extensions:
+    - Icon_ContentControllerExtension
+    - StyleSheet_ContentControllerExtension
+LeftAndMain:
+  extra_requirements_css:
+    - 10_module-example_generated-css/fonts/font-awesome-4.3.0/css/font-awesome.min.css
+    - 10_module-example_generated-css/assets/css/concat/style.concat.css

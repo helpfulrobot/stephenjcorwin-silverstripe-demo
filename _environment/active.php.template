@@ -1,0 +1,10 @@
+<?php
+	// Define the names of your profiles here
+
+	// EXAMPLES
+	// define('ENVIRONMENT_PROFILE_LOCAL',     'local');
+	// define('ENVIRONMENT_PROFILE_REMOTE',    'remote');
+	// define('ENVIRONMENT_PROFILE_TEMPLATE',  'template');
+
+	// Set the current active profile
+	$environment_active_profile = ENVIRONMENT_PROFILE_TEMPLATE;

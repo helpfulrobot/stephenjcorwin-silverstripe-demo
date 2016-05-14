@@ -1,0 +1,6 @@
+---
+Name: developer_assistance
+---
+ContentController:
+  extensions:
+    - DeveloperAssistance_ContentControllerExtension
