@@ -2,7 +2,6 @@
 class DP_Image_SetWidthPage extends DemonstrationPage {
 
 	private static $db = array(
-		'Width' => 'Int'
 	);
 
 	private static $has_one = array(
@@ -15,11 +14,9 @@ class DP_Image_SetWidthPage extends DemonstrationPage {
 		$tab = 'Root.Main';
 		$tab = 'Root.Examples';
 
-		$field = new NumericField('Width');
-    	$fields->addFieldToTab($tab, $field);
-
 		$field = new UploadField('Image');
 		$field->setAllowedMaxFileNumber(1);
+		$field->getValidator()->setAllowedMaxFileSize( 4 * 1024 * 1024 );
 		$field->setFolderName('Uploads/10-image-setwidth/');
     	$fields->addFieldToTab($tab, $field);
 
